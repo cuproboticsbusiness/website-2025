@@ -1,7 +1,7 @@
 [
   {
     "name": "XRP",
-    "img": "/projects/imgs/xrp.png",
+    "img": "/home/xrp.png",
     "chart": [
       {
         "field": "Modularity",
@@ -22,7 +22,7 @@
   },
   {
     "name": "C1C0",
-    "img": "/projects/imgs/c1c0.png",
+    "img": "/home/c1c0.png",
     "chart": [
       {
         "field": "Interactivity",
@@ -43,7 +43,7 @@
   },
   {
     "name": "spaceXRP",
-    "img": "/projects/imgs/spaceXRP.png",
+    "img": "/home/spaceXRP.png",
     "chart": [
       {
         "field": "Control",

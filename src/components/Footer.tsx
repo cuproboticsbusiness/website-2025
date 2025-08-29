@@ -25,13 +25,7 @@ const Footer = () => {
             This organization is a registered student organization of Cornell
             University
             <br />
-            <Link
-              href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment"
-              target="_blank"
-              className="underline"
-            >
-              Equal Education and Employment
-            </Link>
+            Equal Education and Employment
           </span>
 
           <div className="flex flex-col gap-4 sm:gap-8 sm:flex-row">

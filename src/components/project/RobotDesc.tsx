@@ -25,7 +25,7 @@ const RobotDesc = ({
         <p className="text-center md:w-1/2 mx-auto mt-2">{overview}</p>
       </div>
 
-      <div className="relative flex flex-col-reverse items-center md:grid md:grid-cols-[1fr_40vw_1fr] gap-4 my-8">
+      <div className="relative flex-column-reverse items-center md:grid md:grid-cols-[1fr_40vw_1fr] gap-4 my-8">
         {details.map(({ title, text }, index) => (
           <div
             key={title}
@@ -46,7 +46,7 @@ const RobotDesc = ({
             name={name}
             render={render}
             cameraPos={camera}
-            className="w-full md:w-[40vw] "
+            className="w-[55vw] sm:w-[40vw]"
           />
           <p className="text-[#aaa] text-center w-full">
             Drag to rotate and Pinch to zoom
@@ -54,9 +54,7 @@ const RobotDesc = ({
         </div>
       </div>
 
-      <p className="text-center md:w-3/4 mx-auto mt-24 lg:mt-[24vh]">
-        {footer}
-      </p>
+      <p className="text-center md:w-3/4 mx-auto md:mt-[25vh] mt-8">{footer}</p>
     </section>
   );
 };

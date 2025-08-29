@@ -1,82 +1,83 @@
 [
-  {
+  { 
     "name": "3D PrintingNerd",
-    "logo": "/sponsors/3d-printingnerd.jpg"
+    "logo": "/sponsors/3d-printingnerd.jpg" 
   },
-  {
-    "name": "4-H",
-    "logo": "/sponsors/4-H.png"
+  { 
+    "name": "4-H",                                     
+    "logo": "/sponsors/4-h.png" 
   },
-  {
-    "name": "Arm",
-    "logo": "/sponsors/armb.png"
+  { 
+    "name": "Arm",                                     
+    "logo": "/sponsors/armb.png" 
   },
-  {
-    "name": "Autodesk",
-    "logo": "/sponsors/autodesk.png"
+  { 
+    "name": "Autodesk",                                
+    "logo": "/sponsors/autodesk.png" 
   },
-  {
-    "name": "Blue Origin",
-    "logo": "/sponsors/blue-origin.png"
+  { 
+    "name": "Blue Origin",                             
+    "logo": "/sponsors/blue-origin.png" 
   },
-  {
-    "name": "Boeing",
-    "logo": "/sponsors/boeing.png"
+  { 
+    "name": "Boeing",                                  
+    "logo": "/sponsors/boeing.png" 
   },
-  {
-    "name": "Cornell Cooperative Extension",
-    "logo": "/sponsors/cornell-cooperative-extension.png"
+  { 
+    "name": "Cornell Cooperative Extension",           
+    "logo": "/sponsors/cornell-cooperative-extension.png" 
   },
-  {
-    "name": "Cornell Einhorn Center",
-    "logo": "/sponsors/cornell-einhorn-center.png"
+  { 
+    "name": "Cornell Einhorn Center",                  
+    "logo": "/sponsors/cornell-einhorn-center.png" 
   },
-  {
-    "name": "Cornell Systems Engineering",
-    "logo": "/sponsors/cornell-systems-engineering.jpg"
+  { 
+    "name": "Cornell Systems Engineering", 
+    "logo": "/sponsors/cornell-systems-engineering.jpg" 
   },
-  {
-    "name": "Deka",
-    "logo": "/sponsors/deka.jpg"
+  { 
+    "name": "Deka",                                    
+    "logo": "/sponsors/deka.jpg" 
   },
-  {
-    "name": "DigiKey",
-    "logo": "/sponsors/digikey.jpg"
+  { 
+    "name": "DigiKey",                                 
+    "logo": "/sponsors/digikey.jpg" 
   },
-  {
-    "name": "Experiential",
-    "logo": "/sponsors/experiential.jpg"
+  { 
+    "name": "Experiential",                      
+    "logo": "/sponsors/experiential.jpg" 
   },
-  {
-    "name": "FIRST",
-    "logo": "/sponsors/first.png"
+  { 
+    "name": "FIRST",                                   
+    "logo": "/sponsors/first.png" 
   },
-  {
-    "name": "Lockheed Martin",
-    "logo": "/sponsors/lockheed-martin.png"
+  { 
+    "name": "Lockheed Martin",                         
+    "logo": "/sponsors/lockheed-martin.png" 
   },
-  {
-    "name": "MIT",
-    "logo": "/sponsors/mit.png"
+  { 
+    "name": "MIT",                                     
+    "logo": "/sponsors/mit.png" 
   },
-  {
-    "name": "NASA",
-    "logo": "/sponsors/nasa.png"
+  { 
+    "name": "NASA",                                    
+    "logo": "/sponsors/nasa.png" 
   },
-  {
-    "name": "NAVSEA",
-    "logo": "/sponsors/navsea.jpg"
+  { 
+    "name": "NAVSEA",                                  
+    "logo": "/sponsors/navsea.jpg" 
   },
-  {
-    "name": "Raspberry Pi",
-    "logo": "/sponsors/raspberry-pi.png"
+  { 
+    "name": "Raspberry Pi",                            
+    "logo": "/sponsors/raspberry-pi.png" 
   },
-  {
-    "name": "Sparkfun",
-    "logo": "/sponsors/sparkfun.jpg"
+
+  { 
+    "name": "Sparkfun",                                
+    "logo": "/sponsors/sparkfun.jpg" 
   },
-  {
-    "name": "STMicroelctronics",
-    "logo": "/sponsors/stmicroelectronics.png"
+  { 
+    "name": "STMicroelctronics",                       
+    "logo": "/sponsors/stmicroelectronics.png" 
   }
 ]

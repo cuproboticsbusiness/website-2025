@@ -6,9 +6,9 @@ import TeamDisplay from "./TeamDisplay";
 import TargetSelect from "../TargetSelect";
 
 const ROBOT_DISPLAY = [
-  { src: "/projects/imgs/xrp.png", name: "MINI XRP" },
-  { src: "/projects/imgs/c1c0.png", name: "C1C0" },
-  { src: "/projects/imgs/spaceXRP.png", name: "SPACEXRP" },
+  { src: "/home/xrp.png", name: "XRP" },
+  { src: "/home/c1c0.png", name: "C1C0" },
+  { src: "/home/spaceXRP.png", name: "spaceXRP" },
 ];
 
 export default function AboutUs() {

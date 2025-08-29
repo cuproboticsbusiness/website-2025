@@ -1,31 +1,26 @@
 [
   {
-    "name": "Andrew Lin",
-    "email": "ahl92@cornell.edu",
-    "role": "ECE Lead",
-    "major": "Electrical Engineering '27",
-    "desc": ""
-  },
-  {
-    "name": "Eduardo Rodriguez",
-    "email": "er553@cornell.edu",
-    "role": "ECE Lead",
-    "major": "Electrical Engineering '27",
-    "desc": ""
-  },
-  {
-    "name": "Joseph Folsom",
-    "email": "jcf296@cornell.edu",
-    "role": "ECE Lead",
-    "major": "Electrical Engineering '27",
-    "desc": ""
-  },
-  {
     "name": "Dylan Hofflich",
     "image": "/team/electrical/drh253.JPG",
     "email": "drh253@cornell.edu",
     "role": "ECE",
     "major": "Electrical Engineering '26",
+    "desc": ""
+  },
+  {
+    "name": "Andrew Lin",
+    "image": "/team/electrical/andrewlinece.JPG",
+    "email": "???@cornell.edu",
+    "role": "ECE",
+    "major": "Electrical Engineering '27",
+    "desc": ""
+  },
+  {
+    "name": "Eric Seo",
+    "image": "/team/electrical/eys39.JPG",
+    "email": "drh253@cornell.edu",
+    "role": "ECE",
+    "major": "Electrical Engineering '28",
     "desc": ""
   }
 ]

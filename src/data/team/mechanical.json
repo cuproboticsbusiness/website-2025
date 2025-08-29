@@ -1,9 +1,17 @@
 [
   {
+    "name": "Keegan Lewick",
+    "image": "/team/mechanical/kcl68.JPG",
+    "email": "kcl68@cornell.edu",
+    "role": "Full Team Lead",
+    "major": "Mechanical Engineering '25",
+    "desc": "The Kee to my Gan"
+  },
+  {
     "name": "Lisa Yip",
     "image": "/team/mechanical/ly272.JPG",
     "email": "ly272@cornell.edu",
-    "role": "Full Team Lead",
+    "role": "Mechanical Lead",
     "major": "Mechanical Engineering '25",
     "desc": ""
   },
@@ -11,17 +19,9 @@
     "name": "Omar Abuhammoud",
     "image": "/team/mechanical/oa85.JPG",
     "email": "oa85@cornell.edu",
-    "role": "Mechanical Engineering Lead",
+    "role": "XRP",
     "major": "Computer Science '26",
     "desc": "D1 Hater"
-  },
-  {
-    "name": "Keegan Lewick",
-    "image": "/team/mechanical/kcl68.JPG",
-    "email": "kcl68@cornell.edu",
-    "role": "XRP",
-    "major": "Mechanical Engineering '25",
-    "desc": "The Kee to my Gan"
   },
   {
     "name": "Zekai Chen",

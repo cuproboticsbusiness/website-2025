@@ -7,32 +7,30 @@ import Mechanical from "@/data/team/mechanical.json";
 import Software from "@/data/team/software.json";
 import { notFound } from "next/navigation";
 
-const teamDataMap = {
-  mechanical: Mechanical,
-  electrical: Electrical,
-  software: Software,
-  business: Business,
-  alums: Alums,
-  leads: Leads,
-};
-export async function generateStaticParams() {
-  return Object.keys(teamDataMap).map((team) => ({
-    team: team,
-  }));
-}
-
-type Params = Promise<{ team: string }>;
-
-const Team = async (props: { params: Params }) => {
-  const params = await props.params;
-  const team = params.team ?? "leads";
-
-  const currentTeamData = teamDataMap[team as keyof typeof teamDataMap];
-  if (!currentTeamData) return notFound();
+const Team = async ({ params }: { params: { team: string } }) => {
+  const { team } = await params;
+  const getTeam = () => {
+    switch (team) {
+      case "mechanical":
+        return Mechanical;
+      case "electrical":
+        return Electrical;
+      case "software":
+        return Software;
+      case "business":
+        return Business;
+      case "alums":
+        return Alums;
+      case "leads":
+        return Leads;
+      default:
+        return notFound();
+    }
+  };
 
   return (
     <section className="w-full flex flex-wrap gap-10 items-center justify-center">
-      {currentTeamData.map((member: any, index: number) => (
+      {getTeam().map((member: any, index: number) => (
         <Member key={member.name + index} {...member} />
       ))}
     </section>

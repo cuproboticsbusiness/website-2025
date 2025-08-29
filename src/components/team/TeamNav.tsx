@@ -36,7 +36,7 @@ const TeamNav = () => {
         >
           Leads
         </Link>
-        {/* <Link
+        <Link
           href={"/teams/alums"}
           className={cn(
             "p-2 cursor-pointer hover:scale-105 transition-all duration-300 ease-out bg-gradient-to-r from-[var(--cup-red)] to-[var(--cup-red)] bg-no-repeat",
@@ -46,7 +46,7 @@ const TeamNav = () => {
           )}
         >
           Alums
-        </Link> */}
+        </Link>
       </div>
 
       <ul className="flex flex-wrap justify-center items-center list-none gap-4 md:text-xl lg:text-2xl">

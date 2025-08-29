@@ -4,27 +4,21 @@ import C1C0 from "@/data/project/c1c0.json";
 import spaceXRP from "@/data/project/spaceXRP.json";
 import { notFound } from "next/navigation";
 
-const robotDataMap = {
-  xrp: XRP,
-  c1c0: C1C0,
-  spacexrp: spaceXRP,
-};
-export async function generateStaticParams() {
-  return Object.keys(robotDataMap).map((robot) => ({
-    robot: robot,
-  }));
-}
-
-type Params = Promise<{ robot: string }>;
-
-const Robot = async (props: { params: Params }) => {
-  const params = await props.params;
-  const robot = params.robot;
-
-  const currentRobotData = robotDataMap[robot as keyof typeof robotDataMap];
-  if (!currentRobotData) return notFound();
-
-  return <RobotDesc {...currentRobotData} />;
+const Robot = async ({ params }: { params: { robot: string } }) => {
+  const { robot } = await params;
+  const getRobot = () => {
+    switch (robot) {
+      case "xrp":
+        return XRP;
+      case "c1c0":
+        return C1C0;
+      case "spacexrp":
+        return spaceXRP;
+      default:
+        return notFound();
+    }
+  };
+  return <RobotDesc {...getRobot()} />;
 };
 
 export default Robot;

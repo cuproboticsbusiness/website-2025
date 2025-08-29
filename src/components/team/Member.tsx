@@ -7,7 +7,7 @@ import { useState } from "react";
 
 type MemberProp = {
   name: string;
-  image?: string;
+  image: string;
   role: string;
   major: string;
   email: string;
@@ -30,14 +30,11 @@ const Member = ({ name, image, role, major, email, desc }: MemberProp) => {
       >
         <div className="w-full h-[11.25rem] overflow-hidden relative">
           <Image
-            src={image ?? "/team/blank.png"}
+            src={image}
             alt={name}
             fill
             sizes="(max-width:14rem)"
-            style={{
-              objectFit: "cover",
-              transform: image ? "scale(2)" : "scale(1.25)",
-            }}
+            style={{ objectFit: "cover", transform: "scale(2)" }}
             priority
           />
         </div>
@@ -71,14 +68,11 @@ const Member = ({ name, image, role, major, email, desc }: MemberProp) => {
                 <div className="flex-column justify-around items-center gap-4 sm:gap-2 min-h-fit">
                   <span className="rounded-2xl overflow-hidden">
                     <Image
-                      src={image ?? "/team/blank.png"}
+                      src={image}
                       alt={name}
                       width={2560}
                       height={1080}
-                      style={{
-                        objectFit: "cover",
-                        transform: image ? "scale(2)" : "scale(1.5)",
-                      }}
+                      style={{ objectFit: "cover", transform: "scale(2)" }}
                       priority
                     />
                   </span>
