@@ -1,0 +1,25 @@
+{
+  "name": "C1C0",
+  "overview": "C1C0 is Cornell Cup Robotics’ semi-autonomous lab assistant. Designed to explore and interact with its environment, C1C0 can greet people, open doors, and even fire Nerf darts at a target—all while inspiring curiosity at club fairs, science expos, and community events.",
+  "details": [
+    {
+      "title": "Interactive intelligence",
+      "text": "Facial recognition, speech processing, and sentiment analysis allow C1C0 to engage naturally with users—checking in members for attendance, reacting to tone of voice, and conversing through its chatbot hub."
+    },
+    {
+      "title": "Advanced manipulation",
+      "text": "With a precision arm for delicate motions and a strong arm capable of exerting 25 pounds of force, C1C0 can wave, pick up pens, hold doors, and lift heavy objects. Object detection and computer vision guide its grasping tasks."
+    },
+    {
+      "title": "Design & mobility",
+      "text": "A redesigned head houses sensors, expressive features, and even a Baby Yoda canopy. Locomotion is controlled via an Xbox interface for smooth driving, while integrated sensors and path-planning algorithms help C1C0 traverse obstacles and varied terrain."
+    }
+  ],
+  "footer": "Blending engineering with playful design, C1C0 is both a capable lab assistant and an engaging ambassador for robotics innovation.",
+  "render": "/projects/renders/c1c0.gltf",
+  "camera": [
+    -46.8548,
+    1.1670,
+    18.2246
+  ]
+}

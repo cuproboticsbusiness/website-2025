@@ -1,0 +1,25 @@
+{
+  "name": "Bob",
+  "overview": "BOB (Bipedal something something) brings your lab to life through virtual reality. Strap on a headset and instantly see, hear, and feel what BOB experiences",
+  "details": [
+    {
+      "title": "True bipedal mobility",
+      "text": "Powered by a neural‑network controller trained in a custom physics simulator, BOB learns to walk, turn, and balance in any direction—just like a human."
+    },
+    {
+      "title": "Mirrored manipulation",
+      "text": "Your hand movements guide BOB’s dexterous actuators in real time, letting you handle tools, flip switches, or explore hard‑to‑reach places without leaving your chair."
+    },
+    {
+      "title": "Immersive feedback",
+      "text": "A high‑resolution stereo camera pair and spatial audio suite deliver crystal‑clear visuals and sound, so you can inspect experiments from a safe distance or collaborate remotely as if you were there."
+    }
+  ],
+  "footer": "Whether you’re testing new walking gaits, exploring destructive environments, or simply experiencing lab life from afar, BOB’s VR‑driven design opens up a world of possibilities—no boundaries, just exploration. ",
+  "render": "/projects/renders/bob.gltf",
+  "camera": [
+    -0.2901,
+    0.2301,
+    0.5617
+  ]
+}

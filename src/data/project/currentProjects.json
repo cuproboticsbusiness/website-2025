@@ -1,0 +1,65 @@
+[
+  {
+    "name": "XRP",
+    "img": "/projects/imgs/xrp.png",
+    "chart": [
+      {
+        "field": "Modularity",
+        "value": 85,
+        "comment": "Snap-in joints and swappable sensors make XRP highly modular and customizable for different projects."
+      },
+      {
+        "field": "Educational",
+        "value": 100,
+        "comment": "Built for classrooms and clubs, XRP makes robotics approachable and hands-on for learners of all levels."
+      },
+      {
+        "field": "Cost",
+        "value": 10,
+        "comment": "Being fully 3D-printed keeps XRP affordable and accessible to schools, students, and hobbyists."
+      }
+    ]
+  },
+  {
+    "name": "C1C0",
+    "img": "/projects/imgs/c1c0.png",
+    "chart": [
+      {
+        "field": "Interactivity",
+        "value": 95,
+        "comment": "Facial recognition, chatbot integration, and sentiment analysis let C1C0 engage directly with people."
+      },
+      {
+        "field": "Strength",
+        "value": 90,
+        "comment": "Equipped with a strong arm capable of exerting 25 pounds of force for heavy-duty tasks."
+      },
+      {
+        "field": "Precision",
+        "value": 85,
+        "comment": "A six-degree-of-freedom arm and vision-based object detection enable precise movements and object handling."
+      }
+    ]
+  },
+  {
+    "name": "spaceXRP",
+    "img": "/projects/imgs/spaceXRP.png",
+    "chart": [
+      {
+        "field": "Control",
+        "value": 90,
+        "comment": "The XRP chip provides reliable real-time control over propulsion, stabilization, and onboard sensors."
+      },
+      {
+        "field": "Navigation",
+        "value": 85,
+        "comment": "Free-flying navigation replicates ISS maneuvers, gliding smoothly and avoiding obstacles."
+      },
+      {
+        "field": "Education",
+        "value": 100,
+        "comment": "spaceXRP offers a classroom-ready platform to explore robotics, autonomy, and space technology."
+      }
+    ]
+  }
+]

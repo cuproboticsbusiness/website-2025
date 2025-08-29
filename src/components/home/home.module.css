@@ -1,0 +1,120 @@
+/* LOGO ANIMATION */
+.logoArc {
+  stroke: #B40A02;
+  fill: none;
+  stroke-width: 4;
+  stroke-dasharray: var(--dash);
+  stroke-dashoffset: var(--dash);
+  animation: outline var(--time) ease forwards, fillIn 0.85s ease 2.85s forwards;
+  --fill-in-color: var(--cup-red)
+}
+
+#logoWrapper {
+  width: clamp(8rem, 25vw, 16rem);
+  height: clamp(8rem, 25vw, 16rem);
+  animation: swirl 3s ease forwards, moveUp 0.85s ease-out 3.65s forwards;
+  --moveUp-dist: -20vh;
+}
+
+#slidingWindow {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  animation: slideUp 1.25s ease-out 3.75s forwards;
+}
+
+@keyframes outline {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes fillIn {
+  from { fill-opacity: 0; fill: var(--fill-in-color); }
+  to { fill-opacity: 1; fill: var(--fill-in-color); }
+}
+
+@keyframes swirl {
+  from {
+    transform: scale(0) rotateZ(0);
+    transform-origin: center;
+  }
+  to {
+    transform: scale(1) rotateZ(-360deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes moveUp {
+  to { transform: translateY(var(--moveUp-dist)); }
+}
+
+@keyframes slideUp {
+  to { height: 0; }
+}
+
+@media screen and (max-width: 800px) {
+  #logoWrapper {
+    --moveUp-dist: -15vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logoWrapper {
+    --moveUp-dist: -10vh;
+  }
+}
+
+
+
+/* TEAMS ANIMATION */
+#gear-1, #gear-2, #gear-3 {
+  animation: spin 1.5s linear infinite;
+  animation-play-state: paused;
+  transform-origin: var(--x) var(--y);
+}
+.team:hover #gear-1, .team:hover #gear-2, .team:hover #gear-3 {
+  animation-play-state: running;
+}
+@keyframes spin {
+  100% { transform: rotate(var(--degree)); }
+}
+
+#pcb {
+  stroke-dasharray: 500;
+  stroke: white;
+  stroke-width: 0.5;
+}
+.team:hover #pcb {
+  animation: hidePCB forwards, outline 1.5s ease forwards, fillIn 0.5s ease 1s forwards;
+  --fill-in-color: white;
+}
+@keyframes hidePCB {
+  to { stroke-dashoffset: 500; fill: transparent; }
+}
+
+.team:hover #TYPING_CURSOR {
+  animation: hideText forwards, blink 1.25s step-end infinite;
+}
+@keyframes hideText {
+  to { border-right: 2px solid white; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+#chart {
+  transform-origin: bottom left;
+}
+.team:hover #chart {
+  animation: hideChart forwards, chartBounce 1s ease-out forwards;
+}
+
+@keyframes hideChart {
+  to { transform: scale(0); }
+}
+@keyframes chartBounce {
+  0% { transform: scale(0); opacity: 0; }
+  55% { transform: scale(1.1); opacity: 1; }
+  70% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}

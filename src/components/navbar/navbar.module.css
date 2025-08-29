@@ -1,0 +1,104 @@
+/* HAMBURGER ANIMATIONS */
+#hamburgerWrapper {
+  --hb-lined-height: 3px;
+  --hb-line-width: 36px;
+  --hb-line-gap: 6px;
+  gap: var(--hb-line-gap);
+  padding-top: calc(3 * var(--hb-lined-height) + 2 * var(--hb-line-gap))
+}
+
+#hamburgerWrapper > div {
+  background-color: white;
+  width: var(--hb-line-width);
+  height: var(--hb-lined-height);
+  border-radius: 32px;
+}
+
+#hamburger-1 {
+  animation: animate-1 0.5s forwards;
+}
+#hamburger-2 {
+  animation: animate-2 0.5s forwards;
+}
+#hamburger-3 {
+  animation: animate-3 0.5s forwards;
+}
+
+@keyframes animate-1 {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(calc(var(--hb-lined-height) + var(--hb-line-gap))); }
+  100% { transform: translateY(calc(var(--hb-lined-height) + var(--hb-line-gap))) rotate(45deg); }
+}
+@keyframes animate-2 {
+  from { transform: scale(1); }
+  to { transform: scale(0); }
+}
+@keyframes animate-3 {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(calc((var(--hb-lined-height) + var(--hb-line-gap)) * -1));}
+  100% { transform: translateY(calc((var(--hb-lined-height) + var(--hb-line-gap)) * -1)) rotate(-45deg); }
+}
+
+#x-1 {
+  animation: reverse-1 0.5s forwards;
+}
+#x-2 {
+  animation: reverse-2 0.5s forwards;
+}
+#x-3 {
+  animation: reverse-3 0.5s forwards;
+}
+
+@keyframes reverse-1 {
+  0% { transform: translateY(calc(var(--hb-lined-height) + var(--hb-line-gap))) rotate(45deg); }
+  50% { transform: translateY(calc(var(--hb-lined-height) + var(--hb-line-gap))); }
+  100% { transform: translateY(0px); }
+}
+@keyframes reverse-2 {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+@keyframes reverse-3 {
+  0% { transform: translateY(calc((var(--hb-lined-height) + var(--hb-line-gap)) * -1)) rotate(-45deg); }
+  50% { transform: translateY(calc((var(--hb-lined-height) + var(--hb-line-gap)) * -1)); }
+  100% { transform: translateY(0); }
+}
+
+/* MOBILE DROPDOWN ANIMATION */
+.dropDown {
+  animation: dropDown 0.5s ease-out forwards;
+}
+@keyframes dropDown {
+  from {
+    height: 114px;
+  }
+  to {
+    height: 100vh;
+    transform: translateY(0);
+  }
+}
+
+.collapseUp {
+  animation: collapseUp 0.5s ease-in forwards;
+}
+@keyframes collapseUp {
+  from {
+    height: 100vh;
+    transform: translateY(0);
+  }
+  to {
+    height: 114px;
+  }
+}
+
+.showItem {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hideItems {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}

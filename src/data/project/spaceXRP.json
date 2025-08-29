@@ -1,0 +1,25 @@
+{
+  "name": "SpaceXRP",
+  "overview": "Our recreation of NASA’s free-flying Astrobee brings space robotics down to Earth. Built to mimic the real ISS assistant robot, our version uses the XRP chip as its central controller—making it lightweight, efficient, and fully customizable for research and education.",
+  "details": [
+    {
+      "title": "XRP-powered control",
+      "text": "At the heart of our spaceXRP is the XRP chip, handling real-time commands for propulsion, stabilization, and onboard sensors with ease."
+    },
+    {
+      "title": "Free-flying navigation",
+      "text": "Using thrust vectors and stabilization algorithms, spaceXRP can glide smoothly across flat surfaces, replicating the zero-gravity maneuvers of its ISS counterpart."
+    },
+    {
+      "title": "Hands-on learning",
+      "text": "spaceXRP serves as a classroom-ready platform where students can experiment with coding, robotics, and control systems—bringing the excitement of space technology to education on Earth."
+    }
+  ],
+  "footer": "By combining NASA’s vision with our own engineering, spaceXRP becomes both a practical research platform and an inspiring tool for teaching space robotics here on Earth.",
+  "render": "/projects/renders/spacexrp.gltf",
+  "camera": [
+    -14.5239,
+    13.1433,
+    48.4591
+  ]
+}

@@ -1,26 +1,55 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --radius: 0.625rem;
+  --cup-red: #B40A02;
+  font-family: 'Exo 2', sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: black;
+}
+
+.page-section {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 5%, 3rem);
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-moveUp {
+  animation: moveUp 20s linear infinite;
+}
+
+@layer base {
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+  }
+
+  .flex-column {
+    @apply flex flex-col
+  }
+
+  .text-cup-red {
+    @apply text-[var(--cup-red)]
+  }
+
+  .border-cup-red {
+    @apply border-[var(--cup-red)]
+  }
+
+  .bg-cup-red {
+    @apply bg-[var(--cup-red)]
+  }
 }

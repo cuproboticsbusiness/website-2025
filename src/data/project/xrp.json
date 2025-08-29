@@ -1,0 +1,25 @@
+{
+  "name": "XRP",
+  "overview": "XRP (eXperiential Robotics Platform) is your gateway to hands‑on STEM education. Centered on the powerful, energy‑efficient XRP chip, this fully 3D‑printed robot invites learners and makers to build, tinker, and innovate!",
+  "details": [
+    {
+      "title": "Modular architecture",
+      "text": "Snap‑in joints, swappable sensors, and custom‑designed attachments let you configure XRP for any lesson or project—from basic line‑following to advanced swarm behaviors."
+    },
+    {
+      "title": "Open‑source ecosystem",
+      "text": "Access our library of CAD models, software examples, and curriculum guides, or design your own modules in your favorite CAD program and print them at home."
+    },
+    {
+      "title": "Plug‑and‑play",
+      "text": "With user‑friendly wiring harnesses and a web‑based control interface, students of all ages can go from unboxing to first motion in minutes."
+    }
+  ],
+  "footer": "XRP turns theoretical concepts into exciting, hands‑on experiences—whether you’re teaching robotics in the classroom, running an extracurricular club, or exploring personal passion projects at home. Get ready to learn by doing, one printed part at a time.",
+  "render": "/projects/renders/xrp.gltf",
+  "camera": [
+    -75.1299,
+    16.0863,
+    192.1086
+  ]
+}
